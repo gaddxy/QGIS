@@ -101,6 +101,7 @@ mkdir -p "$BUILDDIR"
     -DWITH_SERVER=ON \
     -DWITH_SERVER_LANDINGPAGE_WEBAPP=ON \
     -DTXT2TAGS_EXECUTABLE= \
+    -DFORCE_STATIC_LIBS=TRUE \
     ..
 )
 echo "::endgroup::"
